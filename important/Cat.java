@@ -1,5 +1,15 @@
 //we covered (1) we looked deeper into over riding
 
+class Animal {
+    public static void sound() {
+        System.out.println("This is an animal");
+    }
+
+    public void noise() {
+        System.out.println("Animals make noise");
+    }
+}
+
 public class Cat extends Animal{
     public static void sound() {
         System.out.println("Cats makes good sound");
